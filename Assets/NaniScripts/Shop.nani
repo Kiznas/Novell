@@ -1,0 +1,12 @@
+@skipInput
+@back Shop
+@choice "Buy a drink"
+@stop
+@set drinkTaken=true
+@set shopAvailable=false
+@set questText="Go to Gym"
+@toast "Quest update"
+@printer Dialogue
+Go back to GYM using map
+@skipInput
+@stop

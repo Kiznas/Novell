@@ -1,0 +1,35 @@
+@skipInput
+@back Gym
+@printer Dialogue
+@if "(gymInteractionPassed || drinkTaken)"
+    There is nobody in a Gym
+    @if drinkTaken
+        I think i should go to entrance[skipInput]
+        @set questText="Go to entrance hall"
+        @toast "Quest update"
+        @stop
+    @else
+        I think i should go to shop[skipInput]
+    @endIf
+    @stop
+@else
+    @set questText="Talk to Mia"
+    @toast "Quest update"
+    @choice "Find Mia and talk to her"
+    @stop
+    Mia.Happy: Hi {UserName}
+    @choice "Hi Mia"
+    @stop
+    Mia: What do you need ?
+    @choice "Janet asked me of you can buy her a drink"
+    @stop
+    Mia.Angry: Say to that bitch that she can fuck herself with the drink, i will do nothing for her.
+    There must be minigame
+    Mia.Angry: Even if you won, i dont care, go away.
+    @set questText="Go to shop"
+    @set gymInteractionPassed=true
+    @toast "Quest update"
+    @set shopAvailable=true
+    @stop
+@endif
+    

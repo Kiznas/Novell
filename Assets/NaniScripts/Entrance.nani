@@ -1,0 +1,38 @@
+@back Entrance
+@if !introPassed
+    @input UserName summary:"Choose your name."
+    @stop
+    @char Janet.Happy
+    Janet: Hi {UserName}
+    Janet: Go to gym pls, and ask Mia if she can go to shop and buy me drink. Don`t comeback without something to drink.
+    @showUI QuestLogUI
+    @set questText="Go to gym"
+    @toast "Quest update"
+    @set gymAvailable=true
+    @set introPassed=true
+    @stop
+@elseIf "(introPassed && !drinkTaken)"
+    @char Janet.Angry
+    Janet: Hey {UserName}. I said, <b>Do Not Comeback Without Drink</b>.
+    @stop
+@else
+    @char Janet.Angry
+    @char Mia.Angry
+    Janet: Oh, finnaly, give me the drink already.
+    Mia: No, im thirsty, give it to me and i will kiss you
+    @choice "Give drink to Janet" goto:.JanetDrink
+    @choice "Give drink to Mia" goto:.MiaDrink
+    @choice "Keep the drink" goto:.YourselfDrink
+@endIf
+
+# JanetDrink
+@hideChars
+@set janetDrink=true
+
+# MiaDrink
+@hideChars
+@set miaDrink=true
+
+# YourselfDrink
+@hideChars
+@set selfDrink=true
