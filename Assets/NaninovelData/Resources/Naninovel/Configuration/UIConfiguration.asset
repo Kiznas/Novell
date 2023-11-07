@@ -21,5 +21,9 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   OverrideObjectsLayer: 1
   ObjectsLayer: 5
-  FontOptions: []
-  DefaultFont: 
+  FontOptions:
+  - FontName: CIND
+    Font: {fileID: 12800000, guid: a4a1c19c2e2c58c4ea3e548e83478bb1, type: 3}
+    TMPFont: {fileID: 0}
+    ApplyOnLocale: en
+  DefaultFont: CIND

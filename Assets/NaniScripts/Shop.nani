@@ -1,12 +1,19 @@
 @skipInput
 @back Shop
-@choice "Buy a drink"
-@stop
-@set drinkTaken=true
-@set shopAvailable=false
-@set questText="Go to Gym"
-@toast "Quest update"
+
+@showUI DrinkUI
+@set questText="Find a drink"
+@goto .DrinkLoop
+
+# DrinkLoop
+@wait 0.5 
+@if drinkTaken
+    @goto .Continue
+@else
+    @goto .DrinkLoop
+@endIf
+
+#Continue
 @printer Dialogue
-Go back to GYM using map
-@skipInput
+Go back to GYM using mapp[skipInput]
 @stop

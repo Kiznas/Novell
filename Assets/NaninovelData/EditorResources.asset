@@ -17,7 +17,7 @@ MonoBehaviour:
     Resources:
     - name: Dialogue
       pathPrefix: TextPrinters
-      guid: 1bc08ccd31adff6439e97161aa6e1d8b
+      guid: 5be8317080a902f41bf1fd8832d4d0f3
   - Id: TextPrinters/0a6f3d79-29da-4289-8725-e3d0ffa202f2
     Resources:
     - name: Fullscreen
@@ -27,7 +27,7 @@ MonoBehaviour:
     Resources:
     - name: Wide
       pathPrefix: TextPrinters
-      guid: 781828b806deb1e4cbf50ef9de41da10
+      guid: 40685f5842ce18747a8b7fade82f3793
   - Id: TextPrinters/17bdd7c4-a538-4d5c-b195-7d81fd5edb6b
     Resources:
     - name: Chat
@@ -67,7 +67,7 @@ MonoBehaviour:
     Resources:
     - name: ButtonList
       pathPrefix: ChoiceHandlers
-      guid: 1f6aa29000e839c409e6a9c0704adc96
+      guid: e2d702dd1504ebd4bb1275967fef50fd
   - Id: ChoiceHandlers/ed7cb573-39f6-4bcd-b607-b280d7501473
     Resources:
     - name: ButtonArea
@@ -120,13 +120,13 @@ MonoBehaviour:
       guid: 702c32b2de0c0784b9a66ec90601874f
     - name: BacklogUI
       pathPrefix: UI
-      guid: 7fba909c66b25324cb77db18679c2c96
+      guid: 5f5ddaca294f4b54bbdc47b1637ed01c
     - name: CGGalleryUI
       pathPrefix: UI
       guid: 71da50c8dae82bd42ba67528804e820c
     - name: ConfirmationUI
       pathPrefix: UI
-      guid: 88d03f19bcbff914ba33a7c9895e2d7c
+      guid: e252af3fe16a1a64aa83e105cf0c73ac
     - name: ContinueInputUI
       pathPrefix: UI
       guid: 1add671f8348e8443bcc56290e82fc5e
@@ -135,7 +135,7 @@ MonoBehaviour:
       guid: 671ceb4f549ddf046913d7debf113469
     - name: LoadingUI
       pathPrefix: UI
-      guid: 53aad00e5cf184e458adb001c550518a
+      guid: 88276b6e728a7e648a645f5d3f45d920
     - name: MovieUI
       pathPrefix: UI
       guid: f9a211517d1cb1a44964dc2254463049
@@ -144,34 +144,37 @@ MonoBehaviour:
       guid: a32c73a3aff4b274c85b3ff16c854b07
     - name: SaveLoadUI
       pathPrefix: UI
-      guid: 8d53726b3d08433479398f02b4780e7f
+      guid: c9236df0f6ee3b748a07bc06cbbdb6cc
     - name: SceneTransitionUI
       pathPrefix: UI
       guid: e3b234b4273b7f64ab3f1d9fe425ed23
     - name: SettingsUI
       pathPrefix: UI
-      guid: 65c37f59e9b266f468dd5381fdc03fc3
+      guid: f3e519c6b9c561e429e9ccae229df863
     - name: TipsUI
       pathPrefix: UI
       guid: f5aae572225ee1b4c96d1a17fc5cb073
     - name: TitleUI
       pathPrefix: UI
-      guid: 4b121aa1be1b7e04480b452c595ff17a
+      guid: 0192d08029a9cfc49bcb2fc8889f2cf5
     - name: VariableInputUI
       pathPrefix: UI
-      guid: bb95f484e341dcd4391a572f22b7d067
+      guid: 7fdb49580e41bc5448ca5fe7b05c45c8
     - name: PauseUI
       pathPrefix: UI
       guid: 480f5db62ea305c46b89a86496d2a0c9
     - name: ToastUI
       pathPrefix: UI
-      guid: dd85ce99288c2f8488447fa511b1c0d6
+      guid: b07755a92cca32a408a2bacce4d64ebd
     - name: MapUI
       pathPrefix: UI
       guid: cab85f654b13568419392907a4701ce8
     - name: QuestLogUI
       pathPrefix: UI
       guid: 69ba238a99a7658458c33d1c48b0e625
+    - name: DrinkUI
+      pathPrefix: UI
+      guid: 6645d451cbc06874199ff684f630e73b
   - Id: Scripts
     Resources:
     - name: Entrance

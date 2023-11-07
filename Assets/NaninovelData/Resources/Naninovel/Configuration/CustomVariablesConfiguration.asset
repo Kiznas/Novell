@@ -15,23 +15,25 @@ MonoBehaviour:
   PredefinedVariables:
   - name: UserName
     value: '"nothing"'
+  - name: questText
+    value: '"nothing"'
   - name: entranceAvailable
     value: true
   - name: gymAvailable
     value: false
   - name: shopAvailable
     value: false
-  - name: questText
-    value: '"nothing"'
   - name: drinkTaken
+    value: false
+  - name: drinkGiven
     value: false
   - name: janetDrink
     value: false
   - name: miaDrink
     value: false
-  - name: selfDrink
-    value: false
   - name: introPassed
     value: false
-  - name: gymInteractionPassed
+  - name: gymVisitedFirst
+    value: false
+  - name: gymVisitedSecond
     value: false
