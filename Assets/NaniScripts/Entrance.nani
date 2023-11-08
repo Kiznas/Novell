@@ -8,12 +8,12 @@
     Janet: Go to gym pls, and ask Mia if she can go to shop and buy me drink. Don`t comeback without something to drink.
     @showUI QuestLogUI
 
-    @set questText="Go to gym"
+    @set questText={T_QuestText1}
     @set gymAvailable=true
     @set introPassed=true
     @stop
 @elseIf "(!gymVisitedSecond && drinkTaken)"
-    {UserName}:There is nobody here, i suppose i should go to gym, maybe there is someone.
+    There is nobody here, i suppose i should go to gym, maybe there is someone.
     @stop
 @elseIf "(introPassed && !drinkTaken)"
     @char Janet.Angry
@@ -33,7 +33,7 @@
     Janet: Oh, finnaly, give me the drink already.
     Mia: No, im thirsty, give it to me and i will kiss you
     
-    @set questText="Choose who to give the drink to or keep it"
+    @set questText={T_QuestText7}
 
     @choice "Give drink to Janet" goto:.JanetDrink
     @choice "Give drink to Mia" goto:.MiaDrink

@@ -1,0 +1,3 @@
+; English <en> to Spanish <es> localization document for `CustomUI` managed text document
+
+QuestLog: Registro de misiones

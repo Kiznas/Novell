@@ -1,0 +1,15 @@
+T_QuestText1: "Go to gym"
+T_QuestText2: "Find Mia"
+T_QuestText3: "Go to shop"
+T_QuestText4: "Find drink"
+T_QuestText5: "Go to gym"
+T_QuestText6: "Go to entrance"
+T_QuestText7: "Decide who give drink"
+T_ShopTooltip: The shop where you can buy useful stuff
+T_GymTooltip: The gym where you can improve yourself
+T_EntranceTooltip: Entrance of school
+T_ShopLocker: Shop location is now available!
+T_GymLocker: Gym location is now available!
+T_ShopName: Shop
+T_GymName: Gym
+T_EntranceName: Entrance

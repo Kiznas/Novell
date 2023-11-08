@@ -1,0 +1,72 @@
+; English <en> to Spanish <es> localization document for `DefaultUI` managed text document
+
+CGGallery.Title: GALERÍA CG
+Confirmation.No: NO
+Confirmation.Yes: SÍ
+ControlPanel.Auto: AUTOMÁTICO
+ControlPanel.Hide: ESCONDER
+ControlPanel.Load: CARGA
+ControlPanel.Log: .LOG
+ControlPanel.Map: MAPA
+ControlPanel.QuickLoad: Q.CARGAR
+ControlPanel.QuickSave: Q.GUARDAR
+ControlPanel.Save: SALVAR
+ControlPanel.Settings: CONFIGURACIÓN
+ControlPanel.Skip: SALTARSE
+ControlPanel.Tips: CONSEJOS
+ControlPanel.Title: TÍTULO
+ExternalScriptsBrowser.Info: Seleccionar un guión para reproducir
+ExternalScriptsBrowser.Title: SCRIPTS EXTERNOS
+General.Close: CERRAR
+General.Return: DEVOLUCIÓN
+Naninovel.UI.ControlPanelTitleButton.ConfirmationMessage: ¿Estás seguro de que quieres salir de la pantalla de título?\nSe perderá cualquier progreso del juego que no hayas guardado.
+Naninovel.UI.GameSettingsFontDropdown.DefaultFontName: Predeterminado
+Naninovel.UI.GameSettingsFontSizeDropdown.Default: Predeterminado
+Naninovel.UI.GameSettingsFontSizeDropdown.ExtraLarge: Extra grande
+Naninovel.UI.GameSettingsFontSizeDropdown.Large: Grande
+Naninovel.UI.GameSettingsFontSizeDropdown.Small: Pequeño
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption1: Muy bajo
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption2: Bajo
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption3: Medio
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption4: Alto
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption5: Muy alto
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption6: Ultra
+Naninovel.UI.GameSettingsScreenModeDropdown.ExclusiveFullScreen: Pantalla completa
+Naninovel.UI.GameSettingsScreenModeDropdown.FullScreenWindow: Ventana de pantalla completa
+Naninovel.UI.GameSettingsScreenModeDropdown.MaximizedWindow: Ventana maximizada
+Naninovel.UI.GameSettingsScreenModeDropdown.Windowed: Ventana
+Naninovel.UI.GameSettingsSkipModeDropdown.Everything: Todo
+Naninovel.UI.GameSettingsSkipModeDropdown.ReadOnly: Solo lectura
+Naninovel.UI.GameStateSlot.EmptySlotLabel: Vacío
+Naninovel.UI.SaveLoadMenu.DeleteSaveSlotMessage: ¿Estás seguro de que quieres eliminar la ranura de guardado?
+Naninovel.UI.SaveLoadMenu.OverwriteSaveSlotMessage: ¿Está seguro de que desea sobrescribir la ranura de guardado?
+SaveLoadMenu.Tab.Load: CARGA
+SaveLoadMenu.Tab.QuickLoad: Q. CARGA
+SaveLoadMenu.Tab.Save: SALVAR
+SettingsMenu.AutoDelay: Retardo automático:
+SettingsMenu.Font: Fuente:
+SettingsMenu.FontSize: Tamaño de fuente:
+SettingsMenu.Graphics: Grafismo:
+SettingsMenu.Language: Idioma:
+SettingsMenu.MessageSpeed: Velocidad del mensaje:
+SettingsMenu.Preview: Vista previa
+SettingsMenu.PreviewText: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis vitae tellus a pharetra. Aenean vitae ipsum in est lobortis vulputate a blandit ipsum. Nullam in felis purus. 
+SettingsMenu.Resolution: Resolución:
+SettingsMenu.ScreenMode: Modo de pantalla:
+SettingsMenu.SkipMode: Modo de omisión:
+SettingsMenu.Tab.Basic: BÁSICO
+SettingsMenu.Tab.Sound: SONIDO
+SettingsMenu.Tab.Text: Mensaje de texto
+SettingsMenu.VoiceLanguage: Idioma de voz:
+SettingsMenu.VolumeEffects: Volumen de efectos:
+SettingsMenu.VolumeMaster: Volumen maestro:
+SettingsMenu.VolumeMusic: Volumen de la música:
+SettingsMenu.VolumeVoice: Volumen de voz:
+TitleMenu.CGGallery: GALERÍA CG
+TitleMenu.Continue: CONTINUAR
+TitleMenu.Exit: SALIDA
+TitleMenu.ExternalScripts: SCRIPTS EXTERNOS
+TitleMenu.NewGame: NUEVO JUEGO
+TitleMenu.Settings: CONFIGURACIÓN
+TitleMenu.Tips: CONSEJOS
+VariableInput.Submit: ENVIAR

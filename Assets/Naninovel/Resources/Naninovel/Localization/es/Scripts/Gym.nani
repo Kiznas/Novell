@@ -1,0 +1,49 @@
+; English <en> to Spanish <es> localization document for `Gym` naninovel script
+
+# ef0a8974
+;     Mia.Happy: Hi pretty, thanks for a drink, let me kiss you.
+    Mia.Happy: Hola bonita, gracias por una copa, déjame besarte.
+
+# ae0e5e42
+;     Mia.Angry: Go away you stupid, i don`t wanna talk to you.
+    Mia.Angry: Vete, estúpido, no quiero hablar contigo.
+
+# a5be1772
+;     System: There is nobody in a Gym
+    System: No hay nadie en un gimnasio
+
+# a40fbc1d
+;         I think i should go to entrance[skipInput]
+        Creo que debería ir a la entrada[skipInput]
+
+# d0b55482
+;         I think i should go to shop[skipInput]
+        Creo que debería ir de compras[skipInput]
+
+# 81904a3d
+;     @choice "Find Mia and talk to her"
+    @choice "Encuentra a Mia y habla con ella"
+
+# eb5c0645
+;     Mia.Happy: Hi {UserName}
+    Mia.Happy: Hola {UserName}
+
+# c081b4c5
+;     @choice "Hi Mia"
+    @choice "Hola Mia"
+
+# ce27896a
+;     Mia: What do you need ?
+    Mia: Qué necesitas?
+
+# 84bbc635
+;     @choice "Janet asked me of you can buy her a drink"
+    @choice "Janet me preguntó si puedes invitarla a una bebida"
+
+# 1463dcfe
+;     Mia.Angry: Win me in this game and i will think
+    Mia.Angry: Gáname en este juego y pensaré
+
+# 41606c74
+;     Mia.Angry: Even if you won, i dont care, go away.
+    Mia.Angry: Incluso si ganaste, no me importa, vete.

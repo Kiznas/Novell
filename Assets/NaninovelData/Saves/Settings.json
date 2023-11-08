@@ -14,7 +14,7 @@
             "{\"SkipMode\":0}",
             "{\"BaseRevealSpeed\":0.5098963379859924,\"BaseAutoDelay\":0.5}",
             "{\"MasterVolume\":1.0,\"BgmVolume\":1.0,\"SfxVolume\":1.0,\"VoiceVolume\":1.0,\"VoiceLocale\":\"\",\"AuthorVolume\":[]}",
-            "{\"FontName\":\"\",\"FontSize\":-1}"
+            "{\"FontName\":\"CIND\",\"FontSize\":-1}"
         ]
     }
 }

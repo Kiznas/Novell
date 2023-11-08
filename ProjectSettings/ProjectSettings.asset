@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 6b209a124c512c84da737d1cab23b818
+  productGUID: 6eb4b0a60ce03ad408fae07e54cfa471
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -622,7 +622,6 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: PUBLISHING_TOOLS_ASSET_STORE_RELEASE;MINIGAME_-_MEMORY_ASSET_STORE_RELEASE
     WebGL: PUBLISHING_TOOLS_ASSET_STORE_RELEASE;MINIGAME_-_MEMORY_ASSET_STORE_RELEASE
   additionalCompilerArguments: {}
   platformArchitecture: {}

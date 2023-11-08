@@ -15,7 +15,7 @@
     
     @if drinkTaken
         I think i should go to entrance[skipInput]
-        @set questText="Go to entrance hall"
+        @set questText={T_QuestText6}
         @set gymVisitedSecond=true
         @stop
     @else
@@ -23,7 +23,7 @@
     @endIf
     @stop
 @else
-    @set questText="Talk to Mia"
+    @set questText={T_QuestText2}
     @choice "Find Mia and talk to her"
     @stop
     Mia.Happy: Hi {UserName}
@@ -32,10 +32,12 @@
     Mia: What do you need ?
     @choice "Janet asked me of you can buy her a drink"
     @stop
-    Mia.Angry: Say to that bitch that i will do nothin for her
-    There must be minigame
+    Mia.Angry: Win me in this game and i will think
+    @wait i
+    @miniGame
+    @showUI MiniGameUI
     Mia.Angry: Even if you won, i dont care, go away.
-    @set questText="Go to shop"
+    @set questText={T_QuestText3}
     @set gymVisitedFirst=true
     @set shopAvailable=true
     @stop

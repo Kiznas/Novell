@@ -2,7 +2,7 @@
 @back Shop
 
 @showUI DrinkUI
-@set questText="Find a drink"
+@set questText={T_QuestText4}
 @goto .DrinkLoop
 
 # DrinkLoop
@@ -16,4 +16,5 @@
 #Continue
 @printer Dialogue
 Go back to GYM using mapp[skipInput]
+@set questText={T_QuestText5}
 @stop

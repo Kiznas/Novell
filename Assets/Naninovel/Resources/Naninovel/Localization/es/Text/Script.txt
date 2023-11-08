@@ -1,0 +1,17 @@
+; English <en> to Spanish <es> localization document for `Script` managed text document
+
+T_QuestText1: "Ir al gimnasio"
+T_QuestText2: "Encuentra a Mia"
+T_QuestText3: "Ir de compras"
+T_QuestText4: "Buscar bebida"
+T_QuestText5: "Ir al gimnasio"
+T_QuestText6: "Ir a la entrada"
+T_QuestText7: "Decidir quién da de beber"
+T_ShopTooltip: La tienda donde puedes comprar cosas útiles
+T_GymTooltip: El gimnasio donde puedes superarte
+T_EntranceTooltip: Entrada de la escuela
+T_ShopLocker: ¡La ubicación de la tienda ya está disponible!
+T_GymLocker: ¡La ubicación del gimnasio ya está disponible!
+T_ShopName: Tienda
+T_GymName: Gimnasio
+T_EntranceName: Entrada

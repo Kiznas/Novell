@@ -1,0 +1,61 @@
+; English <en> to Spanish <es> localization document for `Entrance` naninovel script
+
+# cd2612b6
+;     @input UserName summary:"Choose your name."
+    @input UserName summary:"Elige tu nombre."
+
+# bf52eff2
+;     Janet: Hi {UserName}
+    Janet: Hola {UserName}
+
+# 111570c4
+;     Janet: Go to gym pls, and ask Mia if she can go to shop and buy me drink. Don`t comeback without something to drink.
+    Janet: Ve al gimnasio y pregúntale a Mia si puede ir de compras y comprarme bebida. No vuelvas sin algo de beber.
+
+# 1cf58ec3
+;     {UserName}:There is nobody here, i suppose i should go to gym, maybe there is someone.
+    No hay nadie aquí, supongo que debería ir al gimnasio, tal vez haya alguien.
+
+# 86079694
+;     Janet: Hey {UserName}. I said, <b>Do Not Comeback Without Drink</b>.
+    Janet: Hola {UserName}. Le dije: <b>No vuelvas sin beber</b>.
+
+# 8672be4c
+;     Janet: Thank you very much {UserName}, you are such a nice boy.
+    Janet: Muchas gracias {UserName}, eres un chico muy agradable.
+
+# 64f4e66b
+;     Janet: <b>Go away {UserName}, i hate you.</b>
+    Janet: <b>Vete {UserName}, te odio.</b>
+
+# 620175b1
+;     Janet: Oh, finnaly, give me the drink already.
+    Janet: Oh, finalmente, dame la bebida ya.
+
+# 50b88f4c
+;     Mia: No, im thirsty, give it to me and i will kiss you
+    Mia: No, tengo sed, dámelo y te besaré
+
+# 887f2d35
+;     @choice "Give drink to Janet" goto:.JanetDrink
+    @choice "Dale de beber a Janet" goto:.JanetDrink
+
+# bdf1817a
+;     @choice "Give drink to Mia" goto:.MiaDrink
+    @choice "Dale de beber a Mia" goto:.MiaDrink
+
+# 1c5383dd
+;     @choice "Keep the drink" goto:.YourselfDrink
+    @choice "Quédate con la bebida" goto:.YourselfDrink
+
+# 29eb9a6
+; System: You decided to give Janet a drink
+System: Decidiste darle un trago a Janet
+
+# 4260082d
+; System: You decided to give Mia a drink
+System: Decidiste darle un trago a Mia
+
+# d60fce19
+; System: You decided to keep a drink
+System: Decidiste quedarte con un trago

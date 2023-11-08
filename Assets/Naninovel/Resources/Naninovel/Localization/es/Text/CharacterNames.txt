@@ -1,0 +1,4 @@
+; English <en> to Spanish <es> localization document for `CharacterNames` managed text document
+
+Janet: Janetina
+Mia: Mianita

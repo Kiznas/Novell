@@ -175,6 +175,9 @@ MonoBehaviour:
     - name: DrinkUI
       pathPrefix: UI
       guid: 6645d451cbc06874199ff684f630e73b
+    - name: MiniGameUI
+      pathPrefix: UI
+      guid: 3e0c389d42f17fb45bf1a9a817a876b5
   - Id: Scripts
     Resources:
     - name: Entrance

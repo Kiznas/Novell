@@ -49,8 +49,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptName: 
-  scriptText: '@print "Entrance hall of the School where {UserName} study" author:"Entrance"
-    if:{arg} printer:Tooltip speed:2
+  scriptText: '@print {T_EntranceTooltip} author:{T_EntranceName} if:{arg} printer:Tooltip
+    speed:2
 
     @hidePrinter Tooltip if:!{arg}'
   playOnAwake: 0
@@ -224,7 +224,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 6920776168869786048}
-          m_TargetAssemblyTypeName: 
+          m_TargetAssemblyTypeName: Naninovel.PlayScript, Elringus.Naninovel.Runtime
           m_MethodName: Play
           m_Mode: 6
           m_Arguments:
@@ -315,6 +315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8660468154557411793}
   - component: {fileID: 3538253404767501810}
+  - component: {fileID: 6337871390387809783}
   m_Layer: 5
   m_Name: Tooltip
   m_TagString: Untagged
@@ -354,13 +355,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptName: 
-  scriptText: '@print "Small shop called "ATB" where you can buy some snacks and
-    drinks." author:"ATB" if:{arg} printer:Tooltip speed:2
+  scriptText: '@print {T_ShopTooltip} author:{T_ShopName} if:{arg} printer:Tooltip
+    speed:2
 
-    @hidePrinter Tooltip
-    if:!{arg}'
+    @hidePrinter Tooltip if:!{arg}'
   playOnAwake: 0
   disableWaitInput: 0
+--- !u!222 &6337871390387809783
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3662199506420490687}
+  m_CullTransparentMesh: 1
 --- !u!1 &5112569808591503397
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,11 +418,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptName: 
-  scriptText: '@print "The gym where you can spend some time making yourself a better
-    person" author:Gym if:{arg} printer:Tooltip speed:2
+  scriptText: '@print {T_GymTooltip} author:{T_GymName} if:{arg} printer:Tooltip
+    speed:2
 
-    @hidePrinter Tooltip
-    if:!{arg}'
+    @hidePrinter Tooltip if:!{arg}'
   playOnAwake: 0
   disableWaitInput: 0
 --- !u!1 &5260979520326293025
@@ -930,7 +937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptName: 
-  scriptText: '@toast "Gym location is now available!" if:{arg}'
+  scriptText: '@toast {T_GymLocker} if:{arg}'
   playOnAwake: 0
   disableWaitInput: 0
 --- !u!1 &7582471729905133324
@@ -1020,7 +1027,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 3915223507889309809}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: Naninovel.PlayScript, Elringus.Naninovel.Runtime
         m_MethodName: Play
         m_Mode: 0
         m_Arguments:
@@ -1044,7 +1051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptName: 
-  scriptText: '@toast "Shop location is now available!" if:{arg}'
+  scriptText: '@toast {T_ShopLocker}  if:{arg}'
   playOnAwake: 0
   disableWaitInput: 0
 --- !u!1 &7767778776912370686
