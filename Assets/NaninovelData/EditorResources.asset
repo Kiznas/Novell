@@ -192,6 +192,9 @@ MonoBehaviour:
     - name: Shop
       pathPrefix: Scripts
       guid: d90a030535377cb4ebc170ded22e1c05
+    - name: Intro
+      pathPrefix: Scripts
+      guid: 9315021bb2537c1409c82d645054f4b7
   - Id: Characters/ca72d2dc-ee0d-4e4e-8520-c022570e6f8d
     Resources:
     - name: Happy
@@ -241,4 +244,6 @@ MonoBehaviour:
       pathPrefix: TextPrinters
       guid: 0d0e1ea3514ebdc4d8e1dd6d6926684f
   - Id: Audio
+    Resources: []
+  - Id: Movies
     Resources: []
